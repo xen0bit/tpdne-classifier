@@ -1,4 +1,4 @@
-for i in {1..1000}
+for i in {1..70000}
 do
-   wget https://thispersondoesnotexist.com/image -O ./fake/"$i".jpg
+   echo "wget https://thispersondoesnotexist.com/image -O ./fake/"$i".jpg" >> list.txt
 done
